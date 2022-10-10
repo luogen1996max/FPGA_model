@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="cam_vga">
+		<CBX_INST_ENTRY INSTANCE_NAME="|cam_vga|camera:cam|i2c_ov5640_rgb565_cfg:u_i2c_cfg|altsyncram:Ram0_rtl_0" CBX_FILE_NAME="altsyncram_5281.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cam_vga|pll_clk:u_pll_clk|altpll:altpll_component" CBX_FILE_NAME="pll_clk_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cam_vga|sdram_top:u_sdram_top|sdram_fifo_ctrl:u_sdram_fifo_ctrl|rdfifo:u_rdfifo|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_aol1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cam_vga|sdram_top:u_sdram_top|sdram_fifo_ctrl:u_sdram_fifo_ctrl|wrfifo:u_wrfifo|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_nnl1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
